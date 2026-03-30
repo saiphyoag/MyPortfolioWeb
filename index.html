@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sai Phyo Aung — Personal Website</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Epilogue:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo"><img src="img/DSC_9646 copy.JPG" alt="SPA Logo"></div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Let's Talk</a>
+  <div class="hamburger" onclick="toggleMenu()" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#hero" onclick="closeMenu()">Home</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#resume" onclick="closeMenu()">Resume</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-orb orb1"></div>
+  <div class="hero-bg-orb orb2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      You are welcome to explore what I've built on my personal website!
+    </div>
+    <h1 class="hero-name">
+      Sai Phyo<br><span class="line2">Aung.</span>
+    </h1>
+    <p class="hero-tagline">ICT Graduate & Aspiring Socio-Technical Innovator — using technology to create systems and create impact.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        View My Work
+      </a>
+      <a href="#contact" class="btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Get In Touch
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div>
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Core Skills</div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <div class="about-label">Who I Am</div>
+    <h2 class="about-heading">Young Learner.<br>Innovator. Changemaker.</h2>
+    <p class="about-text">I'm <strong>Sai Phyo Aung</strong>, an ICT graduate with a strong interest in software engineering and community-driven technology in multidisciplinary fields. I have hands-on experience in technical assistance, computer training, and office management, and contributing to my community through educational settings and volunteer services.</p>
+    <p class="about-text">My interest in technology, programming, and hardware are complemented by a commitment to lifelong learning through books, multi-media channels, and tech innovation content. I value teamwork, responsibility, and lifelong learning, and I am always motivated to improve myself and help others.</p>
+  </div>
+  <div class="cards-grid reveal reveal-delay-2">
+    <div class="about-card">
+      <div class="about-card-icon">🎓</div>
+      <div class="about-card-title">ICT Graduate</div>
+      <div class="about-card-text">Solid foundation in computer science, networking, databases, and software development principles.</div>
+    </div>
+    <div class="about-card">
+      <div class="about-card-icon">🌏</div>
+      <div class="about-card-title">Community Impact</div>
+      <div class="about-card-text">Delivered tech training to rural students, bridging the digital divide through education.</div>
+    </div>
+    <div class="about-card">
+      <div class="about-card-icon">🔬</div>
+      <div class="about-card-title">Researcher</div>
+      <div class="about-card-text">Published NGO-focused ICT research using both qualitative and quantitative methodologies.</div>
+    </div>
+    <div class="about-card">
+      <div class="about-card-icon">🚀</div>
+      <div class="about-card-title">Builder</div>
+      <div class="about-card-text">Designing and shipping real projects — from responsive web apps to structured curricula.</div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <div class="section-label-center">What I Know</div>
+    <h2 class="section-heading">Skills & Expertise</h2>
+    <p class="section-sub">A combination of technical abilities and human-centered skills built through study, research, and real-world experience.</p>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-category reveal">
+      <div class="skill-cat-title">⚡ Web Development</div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">HTML / CSS</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-pct">75%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">PHP</span><span class="skill-pct">65%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Bootstrap</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+      </div>
+    </div>
+    <div class="skill-category reveal reveal-delay-1">
+      <div class="skill-cat-title">🧠 Programming</div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Object-Oriented Programming</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">SQL / Database Management</span><span class="skill-pct">70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">C Programming</span><span class="skill-pct">72%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="72"></div></div>
+      </div>
+    </div>
+    <div class="skill-category reveal reveal-delay-2">
+      <div class="skill-cat-title">✍️ Research & Communication</div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Academic Research & Writing</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Public Speaking & Presentation</span><span class="skill-pct">82%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Curriculum Design</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-w="78"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <div class="section-label-center">What I've Built</div>
+    <h2 class="section-heading">Featured Projects</h2>
+    <p class="section-sub">A selection of work that reflects my technical skills, research background, and community commitment.</p>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-thumb t1">🌐</div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="p-tag">HTML/CSS</span>
+          <span class="p-tag blue">JavaScript</span>
+          <span class="p-tag green">Bootstrap</span>
+        </div>
+        <div class="project-title">Personal Portfolio Website</div>
+        <div class="project-desc">Designed and developed a fully responsive personal website with clean UI structure, intuitive navigation, and a mobile-first layout. Focused on performance and accessibility.</div>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-thumb t2">📊</div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="p-tag">Research</span>
+          <span class="p-tag blue">ICT</span>
+          <span class="p-tag green">NGO</span>
+        </div>
+        <div class="project-title">NGO ICT Research Project</div>
+        <div class="project-desc">Conducted in-depth research on the role of ICT in non-governmental organizations — exploring how digital tools improve operational efficiency, communication, and community outreach through mixed-methods analysis.</div>
+        <a href="#" class="project-link">Read Research →</a>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-thumb t3">📚</div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="p-tag">Education</span>
+          <span class="p-tag blue">Community</span>
+          <span class="p-tag green">Training</span>
+        </div>
+        <div class="project-title">Community Tech Training Program</div>
+        <div class="project-desc">Provided English and basic computer training to students in rural communities. Developed structured lesson plans covering computer fundamentals and introductory programming concepts — reaching learners with no prior tech exposure.</div>
+        <a href="#" class="project-link">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <div class="resume-inner">
+    <div class="section-header reveal">
+      <div class="section-label-center">My Journey</div>
+      <h2 class="section-heading">Resume</h2>
+    </div>
+    <div class="resume-columns">
+      <div class="reveal">
+        <div class="resume-col-title">🎓 Education</div>
+        <div class="timeline-item">
+          <div class="tl-period">2025 – 2028</div>
+          <div class="tl-title">Bachelor of Computer Science</div>
+          <div class="tl-org">President University (Indonesia)</div>
+          <div class="tl-desc">Studied networking, databases, OOP, web development, and software engineering fundamentals.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-period">Ongoing</div>
+          <div class="tl-title">Self-Directed Learning</div>
+          <div class="tl-org">Online Platforms</div>
+          <div class="tl-desc">Continuously upgrading skills in full-stack development, algorithms, and modern frameworks.</div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <div class="resume-col-title">💼 Experience</div>
+        <div class="timeline-item">
+          <div class="tl-period">2023 – 2024</div>
+          <div class="tl-title">Community Tech Trainer</div>
+          <div class="tl-org">Rural Education Initiative</div>
+          <div class="tl-desc">Taught computer fundamentals, basic programming, and English to students in underserved communities.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-period">2023</div>
+          <div class="tl-title">ICT Research Analyst</div>
+          <div class="tl-org">Academic Project</div>
+          <div class="tl-desc">Conducted qualitative and quantitative research on ICT's role in NGO operations and community outreach.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-period">2022 – Present</div>
+          <div class="tl-title">Freelance Web Developer</div>
+          <div class="tl-org">Independent</div>
+          <div class="tl-desc">Built responsive websites for small clients using HTML, CSS, JavaScript, and PHP.</div>
+        </div>
+      </div>
+    </div>
+    <div class="resume-download reveal">
+      <p>Want to dive into myself? Download my complete resume.</p>
+      <a href="CV.pdf" class="btn-primary" style="display:inline-flex; margin: 0 auto;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download My CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-orb"></div>
+  <div class="contact-inner">
+    <div class="reveal">
+      <div class="section-label-center">Say Hello</div>
+      <h2 class="contact-heading">Let's build something <span>meaningful</span> together.</h2>
+      <p class="contact-text">Whether you're looking for a dedicated developer, a research collaborator, or someone passionate about tech for good — I'd love to connect.</p>
+      <a href="mailto:saiphyoaung@email.com" class="contact-email">saiphyoaungpdo@gmail.com</a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/sai.phyo.9081323" class="social-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M22 12a10 10 0 1 0-11.5 9.87v-6.99H8v-2.88h2.5V9.41c0-2.47 1.47-3.84 3.72-3.84 1.08 0 2.21.19 2.21.19v2.43h-1.25c-1.23 0-1.62.76-1.62 1.54v1.85H16.5l-.4 2.88h-2.54v6.99A10 10 0 0 0 22 12z"/>
+          </svg>
+        Facebook
+        </a>
+        <a href="https://www.instagram.com/saiphyoag" class="social-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5C18.22 4 20 5.78 20 7.75v8.5c0 1.97-1.78 3.75-3.75 3.75h-8.5C5.78 20 4 18.22 4 16.25v-8.5C4 5.78 5.78 4 7.75 4zm8.75 1.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
+          </svg>
+          Instagram
+        </a>
+        <a href="c:\Users\User\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\81E71071DB2B94F946139051E06E5D23CF368F42\transfers\2026-12\WhatsApp Image 2026-03-23 at 6.42.58 PM.jpeg" class="social-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.82h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 10.4a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">Sai Phyo Aung</div>
+  <span>© 2025 · Built with passion & purpose</span>
+  <span>Myanmar 🇲🇲</span>
+</footer>
+
+<script>
+  // Mobile menu
+  function toggleMenu() {
+    const nav = document.getElementById('mobile-nav');
+    nav.classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('mobile-nav').classList.remove('open');
+  }
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        // Animate skill bars
+        e.target.querySelectorAll('.skill-fill').forEach(bar => {
+          bar.style.width = bar.dataset.w + '%';
+        });
+      }
+    });
+  }, { threshold: 0.15 });
+  reveals.forEach(r => observer.observe(r));
+
+  // Also trigger skill bars when skills section is visible
+  const skillBars = document.querySelectorAll('.skill-fill');
+  const skillObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.width = e.target.dataset.w + '%';
+      }
+    });
+  }, { threshold: 0.3 });
+  skillBars.forEach(b => skillObserver.observe(b));
+
+  // Nav shadow on scroll
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    nav.style.boxShadow = window.scrollY > 20 ? '0 4px 30px rgba(0,0,0,0.4)' : 'none';
+  });
+</script>
+</body>
+</html>
